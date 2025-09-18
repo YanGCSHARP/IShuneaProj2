@@ -25,31 +25,6 @@ export function MainNav({
         active: pathname=== `/${params.storeID}/billboard`,
         
     },{
-        href: `/${params.storeID}/categories`,
-        label:"Categories",
-        active: pathname=== `/${params.storeID}/categories`,
-        
-    },{
-        href: `/${params.storeID}/sizes`,
-        label:"Sizes",
-        active: pathname=== `/${params.storeID}/sizes`,
-        
-    },{
-        href: `/${params.storeID}/colors`,
-        label:"Colors",
-        active: pathname=== `/${params.storeID}/colors`,
-        
-    },{
-        href: `/${params.storeID}/products`,
-        label:"Products",
-        active: pathname=== `/${params.storeID}/products`,
-        
-    },{
-        href: `/${params.storeID}/orders`,
-        label:"Orders",
-        active: pathname=== `/${params.storeID}/orders`,
-        
-    },{
         href: `/${params.storeID}/settings`,
         label:"Settings",
         active: pathname=== `/${params.storeID}/settings`,
